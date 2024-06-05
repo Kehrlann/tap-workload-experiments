@@ -1,3 +1,7 @@
+/*:root {*/
+/*}*/
+
 body {
     font-family: "Helvetica", Arial, sans-serif;
+    --bs-body-text-align: center;
 }
