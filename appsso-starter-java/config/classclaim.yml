@@ -1,0 +1,26 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClassClaim
+metadata:
+  name: appsso-starter-java
+  namespace: workloads
+spec:
+  classRef:
+    name: ci
+  parameters:
+    authorizationGrantTypes:
+    - client_credentials
+    - authorization_code
+    - refresh_token
+    clientAuthenticationMethod: client_secret_basic
+    displayName: AppSSO Starter Java
+    redirectPaths:
+    - /login/oauth2/code/appsso-starter-java
+    requireUserConsent: true
+    scopes:
+    - name: openid
+    - name: profile
+    - name: email
+    - description: bestows the ultimate power
+      name: coffee.make
+    workloadRef:
+      name: appsso-starter-java

@@ -1,0 +1,9 @@
+id: f3e4b03d-155e-4390-91aa-6c53fbe5f924
+name: appsso-starter-java
+timestamp: 2024-06-05T15:54:53.407257Z
+source: VSCODE
+username: dgarnier
+options:
+  projectName: appsso-starter-java
+  appssoOfferingName: ci
+  includeBuildToolWrapper: true
