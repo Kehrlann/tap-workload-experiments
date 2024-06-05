@@ -121,7 +121,7 @@ This repository includes an integration to set up an authentication mechanism wi
 
    ```bash
    tanzu services class-claims create server-side-ui-starter \
-     --class sample-full \
+     --class ci \
      --parameter workloadRef.name=server-side-ui-starter \
      --parameter redirectPaths='["/login/oauth2/code/server-side-ui-starter"]'
    ```

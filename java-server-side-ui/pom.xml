@@ -15,7 +15,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>server-side-ui-starter</name>
-    <description>no description yet</description>
+    <description>Java Web UI</description>
 
     <properties>
         <java.version>17</java.version>
