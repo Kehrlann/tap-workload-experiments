@@ -1,0 +1,25 @@
+id: e1c193a5-4bb3-496b-9500-59684eb6584a
+timestamp: 2024-06-04T14:59:53.974Z
+source: TAP-GUI
+username: guest
+options:
+  projectName: java-server-side-ui
+  artifactId: server-side-ui-starter
+  groupId: com.example
+  packageName: com.example.serversideuistarter
+  buildTool: maven
+  includeAppSsoIntegration: true
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  liveUpdateIDESupport: true
+  appssoOfferingName: sample-full
+accelerator:
+  name: java-server-side-ui
+fragments:
+  - name: app-sso-client
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: java-version
+  - name: live-update
+  - name: spring-boot-app-sso-auth-code-flow
+  - name: tap-workload
