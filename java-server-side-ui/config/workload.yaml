@@ -2,6 +2,7 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: server-side-ui-starter
+  namespace: workloads
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: server-side-ui-starter
@@ -18,9 +19,10 @@ spec:
         autoscaling.knative.dev/minScale: "1"
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/Kehrlann/tap-workload-experiments
       ref:
         branch: main
+    subPath: java-server-side-ui
   serviceClaims:
     - name: server-side-ui-starter
       ref:

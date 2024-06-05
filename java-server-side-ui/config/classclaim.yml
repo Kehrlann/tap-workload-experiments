@@ -23,4 +23,4 @@ spec:
     - description: bestows the ultimate power
       name: coffee.make
     workloadRef:
-      name: sample
+      name: server-side-ui-starter
